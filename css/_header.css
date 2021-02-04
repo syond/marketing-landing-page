@@ -1,0 +1,7 @@
+@import "./_nav.css";
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary);
+}

@@ -1,0 +1,21 @@
+footer {
+    text-align: center;
+    padding: 0.9375rem 0;
+    background-color: var(--primary);
+    color: var(--tertiary);
+    font-size: 0.8rem;
+}
+
+.syond {
+    color: var(--tertiary);
+}
+
+.syond>a {
+    text-decoration: underline;
+    color: var(--tertiary);
+    transition: 0.3s;
+}
+
+.syond>a:hover {
+    color: var(--quinary);
+}

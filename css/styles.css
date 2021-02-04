@@ -1,0 +1,30 @@
+@import "./global.css";
+@import "./variables.css";
+@import "./_container.css";
+@import "./_header.css";
+@import "./_main.css";
+@import "./_footer.css";
+@media screen and (min-width: 960px) {
+    .about-container {
+        display: flex;
+        justify-content: center;
+    }
+    .about-content {
+        flex-direction: row;
+    }
+    .about-content>img {
+        height: 600px;
+    }
+    .about-text {
+        padding-left: 3.125rem;
+    }
+    .discover-content>p {
+        font-size: var(--fontSizeTitle);
+    }
+    .modal-content-container {
+        flex-wrap: nowrap;
+    }
+    .modal-content-container>img {
+        height: 400px;
+    }
+}

@@ -1,0 +1,30 @@
+@import "./components/Button/styles.css";
+@import "./components/Modal/styles.css";
+.discover-container {
+    max-width: 900px;
+}
+
+.discover-content {
+    text-align: center;
+}
+
+.discover-content>p {
+    font-size: var(--fontSizeSubtitle);
+    font-weight: 700;
+    color: var(--tertiary);
+    text-transform: uppercase;
+    margin-bottom: 3.125rem;
+}
+
+.discover-content>p>span {
+    color: var(--quinary)
+}
+
+.button {
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}

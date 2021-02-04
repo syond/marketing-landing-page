@@ -1,0 +1,13 @@
+:root {
+    --primary: #8e44ad;
+    --secondary: #9b59b6;
+    --tertiary: #ecf0f1;
+    --quaternary: #bdc3c7;
+    --quinary: #2ecc71;
+    /* 34px */
+    --fontSizeTitle: 2.125rem;
+    /* 26px */
+    --fontSizeSubtitle: 1.625rem;
+    /* 18px */
+    --fontSizeBody: 1.125rem;
+}

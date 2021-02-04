@@ -1,0 +1,24 @@
+nav {
+    /* background-color: var(--primary); */
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.50rem;
+    margin: 0 auto;
+}
+
+#wrapper>ul>li>a {
+    color: var(--secondary);
+    transition: 0.3s;
+}
+
+#wrapper>ul>li>a:hover {
+    color: var(--quinary);
+}
+
+#wrapper>img {
+    height: 150px;
+}

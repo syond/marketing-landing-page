@@ -1,0 +1,5 @@
+@import "./_section-discover-container.css";
+@import "./_section-about-container.css";
+section {
+    padding: 1.875rem;
+}
